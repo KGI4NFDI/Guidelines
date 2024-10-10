@@ -1,4 +1,4 @@
-name: Deploy Astro Site to GitHub Pages
+name: Build and Deploy Astro Site
 
 on:
   push:
@@ -7,42 +7,24 @@ on:
   workflow_dispatch:  # Allows manual triggering of the workflow from the GitHub Actions tab
 
 permissions:
-  contents: read
-  pages: write
+  contents: write  # Ensures the workflow can write to the repo's contents
 
 jobs:
-  build:
+  build-and-deploy:
     runs-on: ubuntu-latest
     steps:
       # Step 1: Checkout the repository
       - name: Checkout repository
         uses: actions/checkout@v4
 
-      # Step 2: Setup Node.js with a specific version
-      - name: Setup Node.js
-        uses: actions/setup-node@v3
-        with:
-          node-version: '18.x'  # Replace 'lts' with '18.x'
+      # Step 2: Install and Build
+      - name: Install Dependencies and Build
+        run: |
+          npm ci
+          npm run build  # Build your Astro site
 
-      # Step 3: Install dependencies using npm ci
-      - name: Install dependencies
-        run: npm ci  # This command installs the exact versions in package-lock.json
-
-      # Step 4: Build the Astro site
-      - name: Build Astro site
-        run: npm run build  # Runs the build script defined in package.json
-
-  deploy:
-    needs: build
-    runs-on: ubuntu-latest
-    environment:
-      name: github-pages
-      url: ${{ steps.deployment.outputs.page_url }}
-
-    steps:
-      # Step 5: Deploy to GitHub Pages
-      - name: Deploy to GitHub Pages
-        id: deployment
+      # Step 3: Deploy to GitHub Pages
+      - name: Deploy 🚀
         uses: JamesIves/github-pages-deploy-action@v4
         with:
-          folder: ./public
+          folder: ./public  # The folder that contains the built Astro site
