@@ -54,5 +54,5 @@ export default defineConfig({
 		}),
 	],
 	site: config.deploySite,
-	// base: config.deployBase
+	base: config.deployBase
 });
