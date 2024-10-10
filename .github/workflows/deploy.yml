@@ -1,16 +1,15 @@
 name: Deploy Astro Site to GitHub Pages
- 
+
 on:
   push:
     branches:
       - main  # Triggers when code is pushed to the main branch
   workflow_dispatch:  # Allows manual triggering of the workflow from the GitHub Actions tab
- 
+
 permissions:
   contents: read
   pages: write
-  id-token: write
- 
+
 jobs:
   build:
     runs-on: ubuntu-latest
@@ -18,28 +17,28 @@ jobs:
       # Step 1: Checkout the repository
       - name: Checkout repository
         uses: actions/checkout@v4
- 
-      # Step 2: Setup Node.js (you can set it to the latest LTS version)
+
+      # Step 2: Setup Node.js with a specific version
       - name: Setup Node.js
         uses: actions/setup-node@v3
         with:
-          node-version: 'lts'
- 
+          node-version: '18.x'  # Replace 'lts' with '18.x'
+
       # Step 3: Install dependencies using npm ci
       - name: Install dependencies
         run: npm ci  # This command installs the exact versions in package-lock.json
- 
+
       # Step 4: Build the Astro site
       - name: Build Astro site
         run: npm run build  # Runs the build script defined in package.json
- 
+
   deploy:
     needs: build
     runs-on: ubuntu-latest
     environment:
       name: github-pages
       url: ${{ steps.deployment.outputs.page_url }}
- 
+
     steps:
       # Step 5: Deploy to GitHub Pages
       - name: Deploy to GitHub Pages
