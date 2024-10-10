@@ -1,0 +1,12 @@
+{
+    "projectName": "KG4NFDI",
+
+    "contactUrl": "https://base4nfdi.de/projects/kgi4nfdi",
+    "repoUrl": "https://gitlab.com/nfdi4culture/<Task-Area>/<Project-Documentation>",
+    "appUrl": "https://service.tib.eu/<Project-Application>",
+    "appUrlGitLab": "https://gitlab.com/nfdi4culture/<Task-Area>/<Project-Application>",
+    "appUrlGitHub": "https://github.com/KGI4NFDI/Guidelines",
+
+    "deploySite": "https://KGI4NFDI.github.io",
+    "deployBase": "/Guidelines"
+}

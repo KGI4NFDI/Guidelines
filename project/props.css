@@ -1,0 +1,4 @@
+:root {
+    --color: var(--color-nfdi4culture); /* Primary color of documented application */
+    --color-secondary: var(--color);    /* Secondary color (optional) */
+}

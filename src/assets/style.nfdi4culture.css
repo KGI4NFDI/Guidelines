@@ -1,0 +1,90 @@
+/*
+ * Do not change this file. Write custom styles in ./style.custom.css.
+ */
+
+ :root,
+ ::backdrop {
+     --color-nfdi4culture: #82D8BC;
+ }
+ :root,
+ ::backdrop {
+     --sl-color-gray-1: #D3D6D5 !important;
+     --sl-color-gray-2: #B3B6B5 !important;
+     --sl-color-gray-3: #939695 !important;
+     --sl-color-gray-4: #6C6D6C !important;
+     --sl-color-gray-5: #4C4D4C !important;
+     --sl-color-gray-6: #2C2D2C !important;
+ 
+     --sl-color-text: var(--sl-color-white);
+ 
+     --sl-color-accent-low: var(--sl-color-gray-6) !important;
+     --sl-color-accent-high: var(--sl-color-gray-6) !important;
+     --sl-color-accent: var(--color) !important;
+     --sl-color-text-accent: var(--color-secondary) !important;
+ 
+     --sl-text-lg: 1.125rem !important;
+     --sl-text-xl: 1.25rem !important;
+     --sl-text-2xl: 1.5rem !important;
+     --sl-text-3xl: 1.85rem !important;
+     --sl-text-4xl: 2.2rem !important;
+     --sl-text-5xl: 2.55rem !important;
+     --sl-text-6xl: 2.9rem !important;
+     
+     --sl-shadow-sm: none !important;
+     --sl-shadow-md: none !important;
+     --sl-shadow-lg: none !important;
+ }
+ :root[data-theme="light"],
+ [data-theme="light"] ::backdrop {
+     --sl-color-gray-1: #1C1D1C !important;
+     --sl-color-gray-2: #3C3D3C !important;
+     --sl-color-gray-3: #5C5D5C !important;
+     --sl-color-gray-4: #A3A6A5 !important;
+     --sl-color-gray-5: #C3C6C5 !important;
+     --sl-color-gray-6: #E3E6E5 !important;
+ }
+ 
+ a:hover,
+ button:hover {
+     border-color: var(--sl-color-gray-4) !important;
+ }
+ 
+ html {
+     font-family: Inter, Helvetica, sans-serif;
+ }
+ 
+ header.header {
+     border-bottom: 0.2rem solid var(--color);
+ }
+ header.header a {
+     color: var(--sl-color-text);
+ }
+ 
+ a[class*="astro-"] {
+     border-radius: 0;
+ }
+ 
+ .sidebar-content summary {
+     padding-top: 0.5em;
+     padding-bottom: 0.5em;
+ }
+ 
+ .action {
+     padding: 0.75rem 1rem;
+     border-radius: 0;
+     transition: filter 200ms;
+ }
+ .action:hover {
+     filter: opacity(0.85);
+ }
+ .secondary, .secondary:hover {
+     border-color: var(--sl-color-text) !important;
+ }
+ 
+ .dialog-frame {
+     background-color: var(--sl-color-bg);
+ }
+ 
+ .pagination-links .link-title {
+     font-size: var(--sl-text-xl);
+ }
