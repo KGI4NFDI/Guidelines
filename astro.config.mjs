@@ -4,7 +4,7 @@ import starlight from "@astrojs/starlight";
 import config from "./project/config.json";
 
 export default defineConfig({
-	outDir: "./public",
+	outDir: "./docs",
 	publicDir: "./project",
 	integrations: [
 		starlight({
