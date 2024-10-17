@@ -13,7 +13,7 @@ export default defineConfig({
 				light: "./project/KGI4NFDI.png",
 				dark: "./project/KGI4NFDI.png",
 			},
-			favicon: "./favicon.svg",
+			favicon: "./KGI4NFDI.png",
 			social: {
 				gitlab: config.appUrlGitLab,
 				github: config.appUrlGitHub,
