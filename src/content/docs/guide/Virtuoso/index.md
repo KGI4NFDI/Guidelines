@@ -13,7 +13,7 @@ Virtuoso supports SPARQL embedded into SQL for querying RDF data, with type-cast
 
 ## Why Do I Need Virtuoso?
 
-Virtuoso is essential because it unifies data from multiple sources, reducing costs and accelerating information production. As organizations increasingly rely on diverse data sources, Virtuoso simplifies data integration across different database engines. 
+Virtuoso is essential because it unifies data from multiple sources, reducing costs and accelerating information production. As organizations increasingly rely on diverse data sources, Virtuoso simplifies data integration across different database engines.
 
 It enhances the effectiveness of query tools, web applications, and development environments, enabling real-time creation of dynamic XML documents from varied SQL databases.
 
@@ -24,6 +24,5 @@ Virtuoso supports a wide range of industry standards, making it a powerful found
 - **Data Management**: Virtuoso handles typical database and virtual database tasks, collaborating between local native and remote SQL and XML-based resources.
 - **Web Services Integration**: Virtuoso includes web and internet services and protocols that expose it to the web and its users.
 - **SPARQL Support**: Virtuoso supports SPARQL embedded into SQL, allowing for RDF data querying, with enhanced type-casting and a dedicated IRI data type.
-    
 
 ![OpenLink Virtuoso Product Architecture](../../../../assets/images/virtuoso-architecture.jpg)
