@@ -24,10 +24,6 @@ export default defineConfig({
 					label: "Guide",
 					autogenerate: { directory: "guide" },
 				},
-				{
-					label: "Tutorial",
-					autogenerate: { directory: "tutorial" },
-				},
 			],
 			editLink: {
 				baseUrl: config.repoUrl,
