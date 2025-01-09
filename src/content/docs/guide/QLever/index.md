@@ -1,8 +1,13 @@
+---
+title: "Introduction to QLever"
+description: "Learn about QLever, a high-performance SPARQL query engine designed for large-scale knowledge graphs and semantic web databases."
+---
+
 # What is QLever?
+
 QLever (pronounced as "clever") is a high-performance SPARQL query engine designed to work with large-scale knowledge graphs. Developed by the University of Freiburg, it efficiently integrates text search and geospatial queries within SPARQL, making it suitable for querying semantic web databases like Wikidata, DBpedia, and OpenStreetMap. It is entirely open-source and optimized for scalability on standard hardware​
 
 It is an advanced data query engine designed to process large-scale structured and unstructured datasets with exceptional speed and precision. It supports efficient query execution on knowledge graphs, relational databases, and other data repositories, making it an ideal tool for organizations that require fast and flexible data analysis.
-
 
 # Why do we need Qlever?
 
