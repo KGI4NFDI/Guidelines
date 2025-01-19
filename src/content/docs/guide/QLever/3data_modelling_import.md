@@ -1,6 +1,7 @@
-# Data Modelling and Import:
-This section focuses on the methods QLever offers to handle RDF datasets, including loading, bulk processing, and using alternative formats like CSV for efficient data management.
-
+---
+title: Data Modelling and Import
+description: This section focuses on the methods QLever offers to handle RDF datasets, including loading, bulk processing, and using alternative formats like CSV for efficient data management.
+---
 
 ## RDF Insert Methods
 ### Loading RDF Datasets:

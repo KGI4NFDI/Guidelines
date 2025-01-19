@@ -1,4 +1,7 @@
-
+---
+title: "How to Install QLever"
+description: "Comprehensive guide to installing QLever on various platforms, including prerequisites, Python setup, and Docker."
+---
 # How do I get QLever?
 
 ## Prerequisites
