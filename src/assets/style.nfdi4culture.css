@@ -6,8 +6,15 @@
 
  :root,
  ::backdrop {
-     --color-nfdi4culture: #82D8BC;
+     
 	 --sl-font: 'Fira Sans', sans-serif !important;
+	 --color-nfdi4culture: #0ABAF0;
+     --sl-font: 'Fira Sans', sans-serif !important;
+     --primary-color: #45546B !important; /* Anthrazit */
+    --top-nav-color: #45546B !important; /* Top Navigation Bar */
+    --link-color: #0ABAF0 !important; /* Blue Link Color */
+    --link-hover-color: #45546B !important; /* Anthrazit on Hover */
+    --secondary-color: #808080 !important; /* Grey for other elements */
  }
  :root,
  ::backdrop {
