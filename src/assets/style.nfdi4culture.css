@@ -52,7 +52,7 @@
  }
  
  html {
-    font-family: 'Fira Sans', sans-serif;
+    font-family: 'Fira Sans', sans-serif !important;
  }
  
  header.header {
