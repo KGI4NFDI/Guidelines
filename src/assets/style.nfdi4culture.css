@@ -7,6 +7,7 @@
  :root,
  ::backdrop {
      --color-nfdi4culture: #82D8BC;
+	 --sl-font: 'Fira Sans', sans-serif !important;
  }
  :root,
  ::backdrop {
