@@ -1,0 +1,95 @@
+---
+import type { Props } from '../props';
+
+//  Keep using Astro's <Image> component
+import { Image } from "astro:assets";
+import base4nfdiLogo from "../assets/images/Logo_base4NFDI_kurz.png";
+import dfgLogo from "../assets/images/dfg_logo_schriftzug_weiss_foerderung_en.gif";
+---
+
+<div class="custom-license-footer">
+  <div class="footer-logos">
+    <!--  Three sections in a row -->
+    <div class="logo-section">
+      <Image src={base4nfdiLogo} alt="Base4NFDI Logo" class="footer-logo" width={220} height={90} />
+    </div>
+    <div class="logo-section">
+      <Image src={dfgLogo} alt="DFG Logo" class="footer-logo" width={220} height={90} />
+    </div>
+    <div class="license-section">
+      <img src="https://mirrors.creativecommons.org/presskit/buttons/88x31/png/by.png" 
+           alt="Creative Commons License" class="license-logo" />
+      <p>
+        Content on this site is licensed under a 
+        <a href="https://creativecommons.org/licenses/by/4.0/" target="_blank" rel="noopener noreferrer">
+          Creative Commons Attribution 4.0 International license.
+        </a>
+      </p>
+    </div>
+  </div>
+
+  <p class="funding-statement">
+    This project is funded as part of Base4NFDI, grant number: <strong>521466146</strong>
+  </p>
+</div>
+
+<style>
+  .custom-license-footer {
+    padding-top: calc(var(--sl-nav-height) + var(--sl-mobile-toc-height));
+    padding-inline-start: var(--sl-content-inline-start);
+    width: 100%;
+    text-align: center;
+    background-color: var(--sl-color-bg-nav, #f8f9fa);
+    font-size: 14px;
+    margin-top: 20px;
+  }
+
+  .footer-logos {
+    display: flex;
+    justify-content: space-between; /*  Align items in a row */
+    align-items: center;
+    gap: 20px;
+    margin-bottom: 10px;
+  }
+
+  .logo-section,
+  .license-section {
+    flex: 1; /*  Make each section take equal space */
+    text-align: center;
+  }
+
+  .footer-logo {
+    width: 220px; 
+    height: 90px; 
+    object-fit: contain; 
+  }
+
+  .license-logo {
+    height: 40px; 
+    margin-bottom: 5px;
+  }
+
+  .funding-statement {
+    font-size: 14px;
+    font-weight: bold;
+    margin-top: 15px;
+    text-align: center;
+  }
+
+  .license-info a {
+    color: var(--sl-color-accent, #007bff);
+    text-decoration: none;
+    font-weight: bold;
+  }
+
+  .license-info a:hover {
+    text-decoration: underline;
+  }
+
+  @media (max-width: 768px) {
+    .footer-logos {
+      flex-direction: column; 
+      text-align: center;
+    }
+  }
+</style>

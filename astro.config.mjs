@@ -28,6 +28,10 @@ export default defineConfig({
 			editLink: {
 				baseUrl: config.repoUrl,
 			},
+			//  Override the default Starlight page layout
+			components: {
+				PageFrame: "./src/components/CustomPageFrame.astro",
+			},
 			customCss: [
 				"./project/props.css",
 				"./src/assets/style.nfdi4culture.css",
