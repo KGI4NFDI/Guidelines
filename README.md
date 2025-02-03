@@ -8,7 +8,7 @@ The guidelines are licensed under the [Creative Commons Attribution 4.0 Internat
 
 ## Contents
 
-| [Guidelines](https://kgi4nfdi.github.io/Guidelines/) |  |
+| [Guidelines](https://kgi4nfdi.github.io/Guidelines/) | Documentation Link |
 |----------|----------|
 | ![Apache Jena](apache_jena.png)   | [Apache Jena](https://kgi4nfdi.github.io/Guidelines/guide/apachejena/)    |
 | ![Virtouso](virtuoso.png)   | [Virtouso](https://kgi4nfdi.github.io/Guidelines/guide/virtuoso/)    |
