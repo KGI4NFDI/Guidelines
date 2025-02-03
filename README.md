@@ -1,5 +1,10 @@
-# Guidelines for creating and hosting Knowledge Graphs
+# Guidelines for Creating and Hosting Knowledge Graphs
 
+This repository provides guidelines for setting up and managing knowledge graphs using various platforms such as Apache Jena, Virtuoso, QLever, and Wikibase. It aims to support researchers and developers in working with semantic data effectively.
+
+This project is funded as part of Base4NFDI, grant number: 521466146.
+
+The guidelines are licensed under the [Creative Commons Attribution 4.0 International License](LICENSE).
 
 ## Contents
 
