@@ -4,7 +4,7 @@ This repository provides guidelines for setting up and managing knowledge graphs
 
 This project is funded as part of Base4NFDI, grant number: 521466146.
 
-The guidelines are licensed under the [Creative Commons Attribution 4.0 International License](LICENSE).
+The guidelines are licensed under the [Creative Commons Attribution 4.0 International License](LICENSE.md).
 
 ## Contents
 
