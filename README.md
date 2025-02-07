@@ -10,7 +10,7 @@ The guidelines are licensed under the [Creative Commons Attribution 4.0 Internat
 
 | [Guidelines](https://kgi4nfdi.github.io/Guidelines/) | Documentation Link |
 |----------|----------|
-| ![Apache Jena](../Guidelines/src/assets/images/apache_jena.png)   | [Apache Jena](https://kgi4nfdi.github.io/Guidelines/guide/apachejena/)    |
-| ![Virtouso](../Guidelines/src/assets/images/virtuoso.png)   | [Virtouso](https://kgi4nfdi.github.io/Guidelines/guide/virtuoso/)    |
-| ![QLever](../Guidelines/src/assets/images/QLever.png)   | [QLever](https://kgi4nfdi.github.io/Guidelines/guide/qlever/)    |
-| ![Wikibase](../Guidelines/src/assets/images/wikibase.png)   | [Wikibase](https://gitlab.com/nfdi4culture/wikibase4research/wikibase4research)    |
+| ![Apache Jena](../../../src/assets/images/apache_jena.png)   | [Apache Jena](https://kgi4nfdi.github.io/Guidelines/guide/apachejena/)    |
+| ![Virtouso](../../../src/assets/images/virtuoso.png)   | [Virtouso](https://kgi4nfdi.github.io/Guidelines/guide/virtuoso/)    |
+| ![QLever](../../../src/assets/images/QLever.png)   | [QLever](https://kgi4nfdi.github.io/Guidelines/guide/qlever/)    |
+| ![Wikibase](../../../src/assets/images/wikibase.png)   | [Wikibase](https://gitlab.com/nfdi4culture/wikibase4research/wikibase4research)    |
