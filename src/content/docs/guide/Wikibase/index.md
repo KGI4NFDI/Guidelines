@@ -12,7 +12,7 @@ Crucially, Wikibase can be deployed independently from Wikidata (and Wikimedia) 
 
 Thanks to many of the features already developed for Wikidata, Wikibase is already more than a single tool, it can instead be considered an umbrella of end-to-end services for the “LOD”-ification of research data, especially in domains or idividual projects which had to engaged with knowledge graphs or semantic web technologies yet. Thanks to the user-friendly interface which would be familiar to any researcher already using Wikidata, Wikibase can help lower the learning curve to getting started with LOD compared to other existing knowledge graph tools.
 
-# Key Features of Qlever
+# Key Features of Wikibase
 
 - **A graphical user interface (GUI)**: Allowing granular read/write controls, in addition to  collaborative and version control features;
 - **A triplestore, editable down to the triple statement level**: Thanks to the requirements of Wikidata to serve as a verifiable source and secondary database, every triple statement can be edited and enriched with qualifying statements and references to external sources – all achievable via the GUI;
