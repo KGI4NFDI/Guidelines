@@ -16,7 +16,7 @@ This data model provides a foundational base that can be expanded and adapted to
 ### Key Features of the Data Model
 - **CIDOC-CRM Compliance**: Based on a global standard for cultural heritage, ensuring compatibility and interoperability.
 - **Multilinguality**: The model currently covers German and English, but more languages can be added.
--**Ready-to-Use**: The model can be loaded directly into your own Wikibase instance, providing an immediate foundation for your research data.
+- **Ready-to-Use**: The model can be loaded directly into your own Wikibase instance, providing an immediate foundation for your research data.
 
 ## Detailed Overview of the Data Model
 
@@ -34,22 +34,22 @@ Objects can belong to one or more **Collections**, enabling group-level categori
 
 #### Media Items
 Linked to objects as representations, such as 2D images or 3D scans.
-•	Each **Media Item** can include: 
-o	- **Annotations**: Enriching the media with additional details.
-o	- **File Format**: Specifying the technical format of the file.
-o	- **Software**: Indicating the tools used to create or modify the media.
+- Each **Media Item** can include: 
+	- **Annotations**: Enriching the media with additional details.
+	- **File Format**: Specifying the technical format of the file.
+	- **Software**: Indicating the tools used to create or modify the media.
 #### Related Entities
-•	- **Places**: Geographical locations relevant to objects or events.
-•	- **Humans** and Organizations**: Individuals or groups associated with the object (e.g., creators, owners).
-•	- **Bibliographic Works**: References to related literature or documentation.
+- **Places**: Geographical locations relevant to objects or events.
+- **Humans** and Organizations**: Individuals or groups associated with the object (e.g., creators, owners).
+- **Bibliographic Works**: References to related literature or documentation.
 #### Types
-•	- **Style**, **Function**, and **Material** of the objects can also be described.
+- **Style**, **Function**, and **Material** of the objects can also be described.
 
 The model focuses on providing basic properties and identifiers for these classes, allowing researchers to capture essential data while offering the freedom to extend as needed.
 
 ### Technical Implementation
 The data model is available as a downloadable .ttl (Turtle) [file](https://gitlab.com/nfdi4culture/wikibase4research/auxiliary-service-repositories/wikibase-model/-/blob/main/wikibase_generic_model.ttl?ref_type=heads), which can be easily imported into Wikibase instances. Here’s how you can set it up:
-1.	**Using [the Docker Pipeline](https://gitlab.com/nfdi4culture/wikibase4research/wikibase4research) **:
+1.	**Using [the Docker Pipeline](https://gitlab.com/nfdi4culture/wikibase4research/wikibase4research)**:
 - The data model can be easily loaded into any Wikibase instance created with the Docker container provided in the Wikibase4Research GitLab repository.
 - Follow the instructions in the repository to deploy your Wikibase and run the provided script for data model integration.
 2.	**Compatibility with Other Wikibase Instances**:
