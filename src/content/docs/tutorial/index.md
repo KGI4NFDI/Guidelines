@@ -24,7 +24,7 @@ Unlike the **Guidelines** section, which provides general best practices and con
 
 ## **Available Tutorials**
 
-- **[Querying Knowledge Graphs with LLMs](./querying-kg-with-llms)**  
+- **[Querying Knowledge Graphs with LLMs](./kg_llms)**
   Learn how to use an LLM (Llama or OpenAI) to query a Virtuoso knowledge graph with natural language.
 
 - **[Extracting Knowledge Graph Triples from Text](./extracting-triples-with-llms)**  
